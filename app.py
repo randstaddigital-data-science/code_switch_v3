@@ -3,6 +3,13 @@ from functions import convert_code, generate_documentation, check_syntax
 from language_detection import detect_language
 
 def main():
+        # Streamlit Page Configuration
+    st.set_page_config(
+        page_title="Code switch",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
+
     st.title("Code Language Converter: Switch Code Fast")
 
     # with header_col2:
