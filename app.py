@@ -1,6 +1,6 @@
 import streamlit as st
-from code_switch.functions import convert_code, generate_documentation, check_syntax
-from code_switch.language_detection import detect_language
+from functions import convert_code, generate_documentation, check_syntax
+from language_detection import detect_language
 
 def main():
     st.title("Code Language Converter: Switch Code Fast")
